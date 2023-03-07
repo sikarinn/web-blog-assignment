@@ -1,0 +1,7 @@
+.posts{
+    flex: 10;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Prompt', sans-serif;
+}

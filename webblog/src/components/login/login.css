@@ -1,0 +1,42 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+        ), 
+        url("https://images.pexels.com/photos/380330/pexels-photo-380330.jpeg?cs=srgb&dl=pexels-ben-neale-380330.jpg&fm=jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 6px 3px 17px -1px rgba(0,0,0,0.43); 
+    box-shadow: 6px 3px 17px -1px rgba(0,0,0,0.43);
+}
+
+.google {
+    background-color: #df4930;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
