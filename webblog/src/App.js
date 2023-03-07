@@ -17,7 +17,7 @@ const App = () => {
 
   useEffect(() => {
     const getUser = async () => {
-      fetch("https://dc02.coe.psu.ac.th/auth/login/success", {
+      fetch("http://localhost:3000/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {

@@ -4,7 +4,7 @@ import "./navbar.css"
 
 const NavBar = ({ user }) => {
     const logout = () => {
-        window.open("https://dc02.coe.psu.ac.th/auth/logout", "_self");
+        window.open("http://localhost:3000/auth/logout", "_self");
     };
 
     return (

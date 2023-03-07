@@ -7,7 +7,7 @@ import Google from "../img/google.png";
 export default function Login() {
 
   const google = () => {
-    window.open("https://dc02.coe.psu.ac.th/auth/google", "_self")
+    window.open("http://localhost:3000/auth/google", "_self")
   }
 
   return (
